@@ -1,0 +1,176 @@
+        /* #cfdaf7 y #245276 */
+
+/* Bold                                                                   |     |    */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,900;1,900&display=swap');
+
+.bitter-bold {
+  font-family: "BitterBold", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+body{
+  margin: 0px 0px 0px 0px;
+  background-color: #cfdaf7;
+}
+.text-img-text {
+  margin: 35px 0px 0px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+h1{
+  margin: 100px 0px 0px 0px;
+  text-align: center;
+  font-family: Bitter;
+  font-size: 90px;
+  color: Red;
+}
+.LOGO{
+  text-align:center;
+}
+h2{
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  font-family: Bitter;
+  font-size:90px;
+  color: Red;
+}
+
+h3{
+  margin: 15px 0px 0px 0px;
+  text-align: center;
+  font-family: Bitter;
+  font-size:18px;
+  color: Black;
+
+}
+
+span{
+  font-family: Bitter;
+  font-style: oblique;
+}
+
+.arrastrable{
+  height: 273px;
+  width: 176px;
+  max-width: 100%;
+  cursor: all-scroll;
+  left: 844px;
+  top: 319px;
+  position: absolute;
+}
+#celeste{
+  background-image: url("../img/colores/celeste.png");
+  z-index: 10;
+}
+
+#rosa{
+  
+  background-image: url("../img/colores/rosa.png");
+  z-index: 9;
+}
+
+#rojo{
+  
+  background-image: url("../img/colores/rojo.png");
+  
+  z-index: 8;
+}
+
+
+
+#naranja{
+  
+  background-image: url("../img/colores/naranja.png");
+  
+  z-index: 7;
+}
+
+#amarillo{
+  
+  background-image: url("../img/colores/amarillo.png");
+  
+  z-index: 6;
+}
+
+#verde{
+  
+  background-image: url("../img/colores/verde.png");
+  
+  z-index: 5;
+}
+
+#azulclaro{
+  
+  background-image: url("../img/colores/azulclaro.png");
+  
+  z-index: 4;
+}
+
+#violeta{
+  
+  background-image: url("../img/colores/violeta.png");
+  
+  z-index: 3;
+}
+
+#michi{
+  
+  background-image: url("../img/colores/michi.gif");
+  
+  z-index: 2;
+}
+
+#nothing{
+  
+  background-image: url("../img/colores/nothing.png");
+  
+  z-index: 1;
+}
+
+#special{
+  
+  background-image: url("../img/colores/misi.png");
+  top: 1967px;
+  left: 864px;
+  display: none;
+  z-index: 0;
+}
+
+.contenedor-cajitas{
+  margin-top: 20px;
+ text-align: center;
+ align-items: center;
+ margin-bottom: 0px;
+}
+
+.contenedor-especial{
+  margin-top: 0px;
+ text-align: center;
+ align-items: center;
+ vertical-align: top;
+ margin-bottom: 20px;
+}
+
+
+.caja{
+  margin: 0px 0px 0px 0px;
+  height: 400px;
+  width: 400px;
+  background-image: url("../img/caja.png");
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+#cajaespecial{
+  margin: 0px 0px 0px 0px;
+  height: 400px;
+  width: 400px;
+  background-image: url("../img/cajaespecial.png");
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
